@@ -1,0 +1,116 @@
+header{
+	width: 1263px;
+	height: 30px;
+	padding-left: 30px;
+	padding-right: 35px;
+	color: #999999;
+	margin: 0 auto;
+}
+header .h_nav a,header .login a{
+	color: #999999;
+}
+header ul{
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .login{
+	width: 180px;
+	float: left;
+}
+header .h_nav{
+	width: 760px;
+	float: right;
+}
+header span{
+	color: red;
+}
+header ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.search{
+	width: 1200px;
+	height: 126px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.search .form{
+	width: 540px;
+	height: 65px;
+}
+.search .form form{
+	width: 540px;
+	height: 35px;
+	border: 3px solid #cc0000;
+}
+.search .form form input{
+	width: 450px;
+	height: 28px;
+	padding-left: 10px;
+	border: none;
+}
+.search .form form button{
+	width: 80.2px;
+	height: 29px;
+	border: none;
+	background: #cc0000;
+	color: white;
+}
+.search .form .morenav{
+	width: 540px;
+	height: 26px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search .form .morenav li{
+	padding-right: 9px;
+	border-right: 1px solid #999999;
+}
+.search .form .morenav li:nth-child(10){
+	border: none;
+}
+.search .form .morenav li a{
+	color: #999999;
+}
+.search .form .morenav li:hover a{
+	color: #c40000;
+	text-decoration: underline;
+}
+.nav{
+	width: 1263px;
+	height: 36px;
+	background: #990000;
+	margin: 0 auto;
+	line-height: 35px;
+	padding-left: 30px;
+}
+.nav .gif2{
+	height: 36px;
+	float: right;
+}
+.nav ul{
+	float: left;
+	width: 935px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav ul li{
+	width: 90px;
+	text-align: center;
+}
+.nav ul li:nth-child(1){
+	width: 125px;
+}
+.nav ul li a{
+	font-size: 14px;
+	color: white;
+}
+.nav ul li:hover{
+	background: #ce171f;
+}

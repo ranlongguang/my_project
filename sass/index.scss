@@ -1,0 +1,102 @@
+.banner{
+    width: 1263px;
+    height: 470px;
+    margin: 0 auto;
+    ul{
+        li{
+            width: 1263px;
+            text-align: center;
+            overflow: hidden;
+            img{
+                margin: 0 -100%;
+            }
+        }
+    }
+    
+}
+.main{
+    width: 1200px;
+    height: 3550px;
+    margin: 0 auto;
+    .floor{
+        width: 1200px;
+        height: 710px;
+    }
+    .floor1{
+        .top{
+            height: 55px;
+            background: #f9f9f9;
+            border-bottom: 2px solid #c94b56;
+            h2{
+                height: 55px;
+                line-height: 55px;
+                font-size: 16px;
+                span{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background: #d43d4e;
+                    font-size: 16px;
+                    color: white;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .middle{
+            width: 1200px;
+            height: 485px;
+            .left{
+                width: 200px;
+                height: 485px;
+                border: 1px solid;
+                float: left;
+            }
+            .right{
+                width: 990px;
+                height: 485px;
+                border: 1px solid;
+                float: right;
+                display: flex;
+                justify-content: space-between;
+                .box{
+                    width: 200px;
+                    height: 242px;
+                    padding: 0 10px;
+                    border-bottom: 1px solid #999999;
+                    border-right: 1px solid #999999;
+                    text-align: center;
+                    .price{
+                        color: red;
+                        display:block;
+                        text-align: left;
+                    }
+                    .title{
+                        color: #666666;
+                        overflow: hidden;
+                        display: block;
+                        height: 32px;
+                        &:hover{
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .floor2{
+        background: orange;
+    }
+    .floor3{
+        background: greenyellow;
+    }
+    .floor4{
+        background: indianred;
+    }
+    .floor5{
+        background: turquoise;
+    }
+}

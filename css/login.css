@@ -1,0 +1,131 @@
+header {
+  width: 1263px;
+  height: 90px;
+  margin: 0 auto; }
+  header ul:nth-child(1) {
+    width: 260px;
+    height: 90px;
+    margin-top: 11px;
+    float: left;
+    margin-left: 130px; }
+    header ul:nth-child(1) li {
+      float: left;
+      margin-left: 5px; }
+  header ul:nth-child(2) {
+    width: 260px;
+    height: 90px;
+    margin-right: 140px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header ul:nth-child(2) li {
+      height: 90px;
+      line-height: 115px;
+      color: #999999; }
+      header ul:nth-child(2) li a {
+        color: #999999; }
+    header ul:nth-child(2) li:nth-child(2) a {
+      color: #0066CC; }
+    header ul:nth-child(2) li:nth-child(2):hover a {
+      text-decoration: underline; }
+
+.banner {
+  width: 1263px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden; }
+  .banner img {
+    margin: 0 -100%; }
+
+footer {
+  width: 1263px;
+  height: 210px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center; }
+  footer p:nth-child(1) {
+    margin-top: 70px; }
+    footer p:nth-child(1) a {
+      color: #999999; }
+      footer p:nth-child(1) a:hover {
+        color: red;
+        text-decoration: underline; }
+  footer P:nth-child(2) {
+    color: red;
+    margin-top: 20px; }
+
+.login {
+  width: 350px;
+  height: 410px;
+  position: absolute;
+  top: 190px;
+  right: 130px;
+  background: white;
+  padding: 5px 40px;
+  border: 1px solid; }
+  .login .title {
+    height: 35px;
+    border-bottom: 1px solid #999999; }
+    .login .title h2 {
+      height: 15px;
+      line-height: 15px;
+      margin-top: 10px;
+      float: left; }
+    .login .title h2:nth-child(1) {
+      width: 80px;
+      border-right: 1px solid #999999; }
+      .login .title h2:nth-child(1) a {
+        color: #e4393c;
+        font-size: 16px; }
+      .login .title h2:nth-child(1):hover a {
+        text-decoration: underline; }
+    .login .title h2:nth-child(2) {
+      margin-left: 20px; }
+      .login .title h2:nth-child(2) a {
+        color: #999999;
+        font-size: 15px; }
+      .login .title h2:nth-child(2):hover a {
+        color: #0066CC;
+        text-decoration: underline; }
+  .login form {
+    border-bottom: 1px dashed #999999;
+    height: 290px; }
+    .login form input {
+      width: 270px;
+      height: 40px;
+      margin-top: 20px;
+      padding-left: 10px; }
+    .login form button {
+      width: 270px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      margin-top: 20px;
+      background: red;
+      color: white;
+      font-size: 15px;
+      border: none;
+      border-radius: 5px; }
+    .login form input:nth-child(5) {
+      width: 15px;
+      height: 15px; }
+    .login form a {
+      margin-left: 10px; }
+      .login form a:hover {
+        text-decoration: underline; }
+    .login form .a1 {
+      margin-left: 90px;
+      color: #999999; }
+  .login .hz {
+    line-height: 70px;
+    color: #999999; }
+    .login .hz a {
+      color: red;
+      margin-left: 10px; }
+      .login .hz a:hover {
+        color: blue;
+        text-decoration: underline; }
+
+/*# sourceMappingURL=login.css.map */

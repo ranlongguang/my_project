@@ -1,0 +1,194 @@
+header {
+  width: 1263px;
+  height: 90px;
+  margin: 0 auto; }
+  header ul:nth-child(1) {
+    width: 260px;
+    height: 90px;
+    margin-top: 11px;
+    float: left;
+    margin-left: 130px; }
+    header ul:nth-child(1) li {
+      float: left;
+      margin-left: 5px; }
+  header ul:nth-child(2) {
+    width: 260px;
+    height: 90px;
+    margin-right: 140px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header ul:nth-child(2) li {
+      height: 90px;
+      line-height: 115px;
+      color: #999999; }
+      header ul:nth-child(2) li a {
+        color: #999999; }
+    header ul:nth-child(2) li:nth-child(2) a {
+      color: #0066CC; }
+    header ul:nth-child(2) li:nth-child(2):hover a {
+      text-decoration: underline; }
+
+.banner {
+  width: 1263px;
+  height: 600px;
+  margin: 0 auto;
+  background: url(../img/rejisterbg.jpg);
+   }
+footer {
+  width: 1263px;
+  height: 210px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center; }
+  footer p:nth-child(1) {
+    margin-top: 70px; }
+    footer p:nth-child(1) a {
+      color: #999999; }
+      footer p:nth-child(1) a:hover {
+        color: red;
+        text-decoration: underline; }
+  footer P:nth-child(2) {
+    color: red;
+    margin-top: 20px; }
+/*register*/
+.register{
+	width: 1000px;
+	height: 500px;
+	border: 2px solid #eaeaea;
+	position: absolute;
+	left: 210px;
+	top: 160px;
+	background: #ffffff;
+}
+.register form{
+	width: 403px;
+	height: 380px;
+	margin-left: 289px;
+	margin-top: 70px;
+}
+.register form div{
+	width: 403px;
+	height: 45px;
+	color: #666666;
+}
+.register form div span{
+	width: 95px;
+	height: 45px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
+.register form div:nth-child(1) input{
+	width: 308px;
+	height: 45px;
+	float: right;
+}
+.register form div:nth-child(2){
+	margin-top: 15px;
+}
+.register form div:nth-child(2) p{
+	width: 308px;
+	height: 45px;
+	float: right;
+	border: 1px solid #dcdcdc;
+}
+.register form div:nth-child(2) p input{
+	height: 42px;
+	border: none;
+}
+.register form div:nth-child(2) p input:nth-child(1){
+	width: 250px;
+}
+.register form div:nth-child(2) p input:nth-child(2){
+	width: 55px;
+}
+.register form div:nth-child(3){
+	margin-top: 15px;
+}
+.register form div:nth-child(3) p{
+	width: 308px;
+	height: 45px;
+	float: right;
+}
+.register form div:nth-child(3) p input{
+	height: 42px;
+	border: none;
+}
+.register form div:nth-child(3) p input:nth-child(1){
+	width: 145px;
+	border: 1px solid #dcdcdc;
+}
+.register form div:nth-child(3) p input:nth-child(2){
+	width: 148px;
+	height: 42.5px;
+	margin-left: 15px;
+	border: 1px solid #dcdcdc;
+}
+.register form div:nth-child(4),.register form div:nth-child(5){
+	margin-top: 15px;
+}
+.register form div:nth-child(4) input{
+	width: 308px;
+	height: 45px;
+	float: right;
+}
+.register form div:nth-child(5) input{
+	width: 308px;
+	height: 45px;
+	float: right;
+}
+.register form div:nth-child(6){
+	text-align: center;
+	line-height: 55px;
+	color: #999999;
+}
+.register form div:nth-child(6) input{
+	margin-right: 10px;
+	margin-left: 26px;
+}
+.register form div:nth-child(6) a{
+	color: #007ad9;
+}
+.register form div:nth-child(6) a:hover{
+	text-decoration: underline;
+}
+.register form button{
+	width: 305px;
+	background: #e10303;
+	height: 45px;
+	border: none;
+	border-radius: 3px;
+	margin-left: 95px;
+	color: white;
+	margin-top: 3px;
+}
+.register .personal{
+	position: absolute;
+	top: -35px;
+	right: 130px;
+	width: 115px;
+	border-radius: 5px;
+	height: 35px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	line-height: 35px;
+	color: #ffb500;
+	background: white;
+	border-bottom: none;
+}
+.register .conpany{
+	position: absolute;
+	top: -35px;
+	right: 10px;
+	width: 115px;
+	border-radius: 5px;
+	height: 35px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	line-height: 35px;
+	color: white;
+	background: #ff9900;
+	border-bottom: none;
+}

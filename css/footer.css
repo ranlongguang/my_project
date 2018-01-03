@@ -1,0 +1,223 @@
+.footer_top{
+	width: 1263px;
+	height: 290px;
+	background: #333333;
+	margin: 0 auto;
+}
+.footer_top_top{
+	width: 1200px;
+	height: 85px;
+	border-bottom: 1px solid #494949;
+	margin: 0 auto;
+}
+.footer_top_top h2{
+	width: 450px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	color: #aa2133;
+	font-size: 16px;
+	padding-left: 60px;
+	margin-top: 18px;
+	background: url(../img/public-24.png) no-repeat -142px -17px;
+}
+.footer_top_top h2 span{
+	color: white;
+	margin-left: 20px;
+}
+.footer_top_top .footer_form{
+	width: 335px;
+	height: 85px;
+	float: right;
+}
+.footer_top_top .footer_form span{
+	color: white;
+	display: block;
+	float: left;
+	line-height: 85px;
+}
+.footer_top_top .footer_form form{
+	width: 245px;
+	height: 35px;
+	border: 1px solid #494949;
+	float: right;
+	margin-top: 25px;
+	overflow: hidden;
+}
+.footer_top_top .footer_form form input{
+	width: 204px;
+	height: 33px;
+	border: none;
+	background: #333333;
+	padding-left: 5px;
+	display: block;
+	float: left;
+}
+.footer_top_top .footer_form form button{
+	width: 35px;
+	height: 35px;
+	border: none;
+	float: right;
+	background: url(../img/yx.jpg) no-repeat 5px 8px;
+}
+.footer_top_bottom{
+	width: 1200px;
+	height: 147px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.footer_top_bottom div{
+	width: 95px;
+	float: left;
+	margin-left: 80px;
+}
+.footer_top_bottom div:nth-child(1){
+	margin: 0;
+}
+.footer_top_bottom h3{
+	color: white;
+	width: 107px;
+	height: 27px;
+	line-height: 27px;
+}
+.footer_top_bottom h3 span{
+	display: block;
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+	border-radius: 50%;
+	float: left;
+}
+.footer_top_bottom div:nth-child(1) h3 span{
+	background: url(../img/public-24.png) no-repeat 0px -131px;
+}
+.footer_top_bottom div:nth-child(2) h3 span{
+	background: url(../img/public-24.png) no-repeat -30px -131px;
+}
+.footer_top_bottom div:nth-child(3) h3 span{
+	background: url(../img/public-24.png) no-repeat -60px -131px;
+}
+.footer_top_bottom div:nth-child(4) h3 span{
+	background: url(../img/public-24.png) no-repeat -90px -131px;
+}
+.footer_top_bottom div:nth-child(5) h3 span{
+	background: url(../img/public-24.png) no-repeat -120px -131px;
+}
+.footer_top_bottom div:nth-child(6) h3 span{
+	background: url(../img/public-24.png) no-repeat -150px -131px;
+}
+.footer_top_bottom div:nth-child(7) h3 span{
+	background: url(../img/public-24.png) no-repeat -140px -74px;
+}
+.footer_top_bottom ul{
+	width: 95px;
+	height: 70px;
+}
+.footer_top_bottom ul li{
+	margin-top: 5px;
+	margin-left: 35px;
+	float: left;
+}
+.footer_top_bottom div:nth-child(7) ul li:nth-child(1){
+	margin-left: 0;
+}
+.footer_top_bottom div:nth-child(7) ul li span{
+	display: block;
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+	border-radius: 50%;
+	float: left;
+	background: url(../img/public-24.png) no-repeat -104px -74px;
+}
+.footer_top_bottom ul li a{
+	color: #ccccbd;
+}
+.footer_top_bottom ul li:hover a{
+	text-decoration: underline;
+}
+/*底部css*/
+.footer_bottom{
+	width: 1263px;
+	height: 280px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.footer_bottom_left{
+	width: 710px;
+	float: left;
+}
+.footer_bottom_left ul{
+	height: 20px;
+	margin-top: 25px;
+}
+.footer_bottom_left ul li{
+	border-right: 1px solid #999999;
+	float: left;
+	padding-right: 10px;
+	margin-left: 8px;
+}
+.footer_bottom_left ul li:nth-child(1){
+	margin-left: 0;
+}
+.footer_bottom_left ul:nth-child(1) li:nth-child(8){
+	border: none;
+}
+.footer_bottom_left ul:nth-child(3) li:nth-child(10){
+	border: none;
+}
+.footer_bottom_left ul:nth-of-type(3){
+	margin-top: 10px;
+	height: 47px;
+}
+.footer_bottom_left ul:nth-of-type(3) li{
+	padding: 0;
+	
+	border: none;
+}
+.footer_bottom_left ul:nth-of-type(3) li:nth-child(5) img{
+	height: 47px;
+}
+.footer_bottom_left ul li a{
+	color: #333333;
+}
+.footer_bottom_left ul:nth-child(3) li a{
+	color: #999999;
+}
+.footer_bottom_left ul li:hover a{
+	color: red;
+	text-decoration: underline;
+}
+.footer_bottom_left p:nth-of-type(1){
+	color: #333333;
+	margin-top: 5px;
+}
+.footer_bottom_left p:nth-of-type(2){
+	color: #999999;
+	margin-top: 5px;
+}
+.footer_bottom_left p:nth-of-type(3){
+	color: #999999;
+	margin-top: 5px;
+}
+.footer_bottom_left p:nth-of-type(4){
+	color: #cc0000;
+	margin-top: 15px;
+}
+.footer_bottom_right{
+	width: 200px;
+	height: 110px;
+	float: right;
+	margin-top: 45px;
+	margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+

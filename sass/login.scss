@@ -1,0 +1,165 @@
+header{
+    width: 1263px;
+    height: 90px;
+    margin: 0 auto;
+    ul:nth-child(1){
+        width: 260px;
+        height: 90px;
+        margin-top: 11px;
+        float: left;
+        margin-left: 130px;
+        li{
+            float: left;
+            margin-left: 5px;
+        }
+    }
+    ul:nth-child(2){
+        width: 260px;
+        height: 90px;
+        margin-right: 140px;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            height: 90px;
+            line-height: 115px;
+            color: #999999;
+            a{
+                color: #999999;
+            }
+          }
+         li:nth-child(2){
+            a{
+                color: #0066CC;
+            }
+            &:hover{
+               a{
+                   text-decoration: underline;
+               }
+            }
+        }
+    }
+}
+.banner{
+    width: 1263px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    
+    img{
+        margin: 0 -100%;
+    }
+}
+footer{
+    width: 1263px;
+    height: 210px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    p:nth-child(1){
+        margin-top: 70px;
+        a{
+            color: #999999;
+            &:hover{
+                color: red;
+                 text-decoration: underline;
+             }
+        }
+    }
+    P:nth-child(2){
+        color: red;
+        margin-top: 20px;
+    }
+}
+.login{
+    width: 350px;
+    height: 410px;
+    position: absolute;
+    top: 190px;
+    right: 130px;
+    background: white;
+    padding: 5px 40px;
+    border: 1px solid;
+    .title{
+        height: 35px;
+        border-bottom: 1px solid #999999;
+        h2{
+            height: 15px;
+            line-height: 15px;
+            margin-top: 10px;
+            float: left;
+        }
+        h2:nth-child(1){
+            width: 80px;
+            border-right: 1px solid #999999;
+            a{
+                color: #e4393c;
+                font-size: 16px;
+            }
+            &:hover a{
+                text-decoration: underline;
+            }
+        }
+        h2:nth-child(2){
+            margin-left: 20px;
+            a{
+                color: #999999;
+                font-size: 15px;
+            }
+            &:hover a{
+                color: #0066CC;
+                text-decoration: underline;
+            }
+        }
+    }
+    form{
+        border-bottom: 1px dashed #999999;
+        height: 290px;
+        input{
+            width: 270px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        button{
+            width: 270px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            margin-top: 20px;
+            background: red;
+            color: white;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        input:nth-child(5){
+            width: 15px;
+            height: 15px;
+        }
+        a{
+            margin-left: 10px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .a1{
+            margin-left: 90px;
+            color: #999999;
+        }
+    }
+    .hz{
+        line-height: 70px;
+        color: #999999;
+        a{
+            color: red;
+            margin-left: 10px;
+            &:hover{
+                color: blue;
+                text-decoration: underline;
+            }
+        }
+    }
+}
